@@ -19,9 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" dir="rtl">
-      <body suppressHydrationWarning
-        style={{width: "100vw", overflowX:'hidden'}}
-      >
+      <body suppressHydrationWarning style={{ overflowX: "hidden" }}>
         <AnimateWrapper>
           <MainNavbar />
           {children}
