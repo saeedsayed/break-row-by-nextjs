@@ -22,15 +22,19 @@ const FadeAnimate = ({ children, dir, ...rest }) => {
       : fadeInVariant;
 
   return (
+    <div
+      style={{overflowX: "hidden"}}
+      {...rest}
+    >
     <motion.div
       variants={variants}
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.5 }}
-      {...rest}
-    >
+      >
       {children}
     </motion.div>
+      </div>
   );
 };
 
