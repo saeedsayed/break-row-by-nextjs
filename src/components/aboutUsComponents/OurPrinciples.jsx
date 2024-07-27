@@ -12,7 +12,7 @@ const OurPrinciples = () => {
         <FadeAnimate>
           <h2 className="text-primary text-center mb-4">قيمنا الاساسية</h2>
           <p className="text-center mb-5">
-            في "بريك روو"، كل قرار نتخذه، وكل استراتيجية ننفذها، وكل خدمة نقدمها
+            في {`"بريك روو"`}، كل قرار نتخذه، وكل استراتيجية ننفذها، وكل خدمة نقدمها
             مبنية على قيمٍ ثابتة.{" "}
           </p>
         </FadeAnimate>

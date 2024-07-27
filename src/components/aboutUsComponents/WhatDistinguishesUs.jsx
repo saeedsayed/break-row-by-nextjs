@@ -61,6 +61,7 @@ const WhatDistinguishesUs = () => {
                   <div className="p-3" style={{ height: "250px" }}>
                     <Image
                       src={image}
+                      alt={title}
                       className="shadow h-100 rounded-5"
                       style={{ transform: "translateX(30px)" }}
                     />
