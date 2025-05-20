@@ -16,7 +16,7 @@ const Footer = () => {
             <FadeAnimate dir={"rtl"}>
               <p className="h1">نتكلم؟</p>
               <p className="h5">لا تتردد في الاتصال بنا</p>
-              <p className="mb-0">هاتف: ٩٧١٥٤٢٢٠٣٣٣٠+</p>
+              <p className="mb-0">هاتف: +١١١١١١١١١١</p>
               <p>عنوان البريد الإلكتروني: info@breakrow.ae</p>
             </FadeAnimate>
           </Col>
